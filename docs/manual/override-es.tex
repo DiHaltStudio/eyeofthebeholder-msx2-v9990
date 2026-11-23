@@ -1,0 +1,35 @@
+% Textos fijos de lang-es.tex que cambian en este juego: va en disco duro o
+% tarjeta SD con MSX-DOS2, pide un V9990 y se maneja con rat'on.
+\renewcommand{\tCoverLine}{El cl\'asico de rol de PC, en MSX con el V9990}
+\renewcommand{\tComputerText}{Un \textbf{MSX2, MSX2+ o MSX turbo R}, con ranuras para el V9990 y la interfaz de disco.}
+\renewcommand{\tMemoryText}{\textbf{Al menos \ramNeeded{} de memoria mapeada en total}. Si tu equipo tiene menos, necesita una ampliación, también en los modelos turbo R que no alcancen esa cantidad.}
+\renewcommand{\tVideoText}{Un \textbf{cartucho de vídeo Yamaha V9990}. Es obligatorio para la imagen de la aventura.}
+\renewcommand{\tSoundText}{Una \textbf{MoonSound} es opcional. Reproduce los efectos y la música de la introducción.}
+\renewcommand{\tGameRow}{Disco}
+\renewcommand{\tGameText}{\textbf{MSX-DOS2 o Nextor} y un \textbf{disco duro o tarjeta SD/CF} con los archivos del juego.}
+\renewcommand{\tControlsText}{Un \textbf{rat\'on MSX en el puerto 1} (se usa para casi todo) y el teclado (moverse y atacar).}
+\renewcommand{\tNoTape}{Si te faltan ranuras para cartuchos, usa un \textbf{expansor de ranuras}.}
+\renewcommand{\tSetOff}{\textbf{Apaga el MSX.} No insertes ni retires nunca un cartucho con el equipo encendido.}
+\renewcommand{\tSetV}{Inserta el \textbf{cartucho V9990} en una ranura libre.}
+\renewcommand{\tSetGame}{Inserta la \textbf{interfaz de disco} en otra ranura libre, con los ficheros del juego, y la \textbf{MoonSound} si la tienes. Puedes usar un \textbf{expansor de ranuras} si necesitas conectar más cartuchos.}
+\renewcommand{\tSetMonitor}{Conecta el monitor o televisor a la \textbf{salida de v\'ideo del V9990}.}
+\renewcommand{\tSetJoy}{Conecta el \textbf{rat\'on al puerto 1}.}
+\renewcommand{\tSetOn}{Copia la carpeta \texttt{EOB} de \texttt{SD} dentro del ZIP a tu unidad DOS. Enciende el MSX, selecciona esa unidad y escribe \texttt{CD \textbackslash EOB} y \texttt{EOB}. Elige el idioma en la portada.}
+\renewcommand{\tBlackScreen}{\textbf{En openMSX.} Usa un MSX2 o turbo R con la extensión \texttt{gfx9000} y un ratón en el puerto~1. Añade \texttt{moonsound} para oír los efectos y la música de la introducción. El README del proyecto explica cómo arrancar el juego desde el ZIP.\par\medskip
+\textbf{Si la pantalla se queda en negro.} Comprueba la conexión del V9990 y selecciona su salida de vídeo. Si aparece el indicador de DOS, comprueba que has arrancado MSX-DOS2 o Nextor y que estás en la carpeta del juego.}
+\renewcommand{\tPowerOnCaption}{Izquierda: la portada, donde se elige el idioma. Derecha: la pantalla de t\'itulo con su men\'u.}
+\renewcommand{\tJoystick}{Rat\'on}
+\renewcommand{\tCreditsTitle}{17. Créditos y derechos}
+\renewcommand{\tRightsText}{Basado en las reglas de ADVANCED DUNGEONS \& DRAGONS\textsuperscript{\textregistered} y en el mundo de FORGOTTEN REALMS\textsuperscript{\textregistered}, marcas de sus titulares. El juego, sus gr\'aficos, textos, sonidos y nombre pertenecen a sus titulares. Esta es una versi\'on no oficial hecha para el estudio, la conservaci\'on y como homenaje; no tiene relaci\'on con ellos.}
+\newcommand{\tCreditsExtra}{%
+\item La portada utiliza la ilustración de apertura elegida para esta edición. Los iconos proceden de los gráficos del juego; varias explicaciones siguen su manual original.
+\item Las imágenes del bestiario son capturas de la aventura.
+\item ScummVM (licencia GPL) sirvió de referencia para esta adaptación. Su controlador AdLib se usó para convertir el sonido.}
+% the pictures of this language: made by tools/manual_images.py (img/) and
+% taken by tools/manual_shots.sh (../img/)
+\newcommand{\imgdir}{img/}
+\newcommand{\shotdir}{../img/}
+\newcommand{\tTitleShot}{img/title.png}
+\renewcommand{\portWork}{\portWorkES}
+
+\renewcommand{\tMonitorText}{Monitor o TV conectado al V9990 para la aventura. La salida del propio MSX muestra el automapa: usa una segunda pantalla o un monitor con entradas conmutables.}

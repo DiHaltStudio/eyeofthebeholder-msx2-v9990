@@ -1,0 +1,12 @@
+/build/
+/third_party/
+/.eob-player/
+/SD/
+/release/*
+!/release/.gitkeep
+__pycache__/
+*.pyc
+/docs/manual/*.aux
+/docs/manual/*.log
+/docs/manual/*.out
+/docs/manual/*.toc

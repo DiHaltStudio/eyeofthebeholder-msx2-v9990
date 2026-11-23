@@ -1,0 +1,147 @@
+% Game sections: 5..11 (the credits are 12, see override-en.tex).
+
+\sect{5. How to play}
+
+\textbf{The story.} Something evil hides beneath the city of Waterdeep. Piergeiron, the first Lord of the city, gathers a party of adventurers and gives them a commission: go down into the sewers, find out what threatens the city and destroy it. As they enter, a cave-in closes the way back. From there the only way is down: the sewers, the dwarven ruins, the caves of the dark elves and, at the bottom, the lair of the beholder Xanathar.
+
+\textbf{The goal.} Get through the 12 levels of the dungeon, stay alive and put an end to Xanathar.
+
+\textbf{Everything is seen through the party's eyes.} The large window shows what lies ahead. You move square by square and turn in steps of 90 degrees. Walls pass by, and you see items on the floor, doors, levers, buttons, writings and monsters coming close to fight. Monsters do not wait: if you stand still, they keep moving and attacking.
+
+\textbf{The party.} You start with four characters. The two at the top are the \textbf{front rank}: they are the only ones who can fight in melee (swords, maces, axes). The two below are the \textbf{rear rank}: they can only attack with ranged weapons (bows, thrown daggers or darts) or with spells, but remain exposed, especially to attacks from the sides or behind. On the way you will meet other adventurers who may join the party, up to six characters. To \textbf{change the order}, right-click on a character's name (\texttt{Swapping} shows in its place), then right-click on another name: the two change places. A click anywhere else on the panel cancels it.
+
+\textbf{Take, use, select.} The key to the game is the difference between these three actions:
+\begin{itemize}
+\item \textbf{Take} (left button): pick up or put down items. What you take becomes the mouse pointer, and you put it wherever you want.
+\item \textbf{Use} (right button on a hand, or the keys \key{1}--\key{6} and \key{Q}--\key{Y}): attack with a weapon, cast a spell with the spell book or the holy symbol, drink a potion, read a scroll\dots
+\item \textbf{Select} (left button): press menu buttons, choose a spell from a list, point at a character.
+\end{itemize}
+
+\textbf{Examining the world.} Left-click on a writing, a drain or a body: what the party sees appears in the message area. The same click works levers, buttons and chains.
+
+\textbf{Doors.} Not all of them open the same way. Many have a button or a lever beside them (click on it, or \key{SPACE} with the door ahead). Locked doors open by taking the right key and clicking with it on the lock; a thief can try the same with his lockpicks. A half-open door can be forced by clicking on its lower part: the strongest character makes the attempt.
+
+\textbf{Stairs and portals} lead to other levels. The game remembers what you left on each level (open doors, dead monsters, dropped items) in case you come back.
+
+\sect{6. Making the party}
+
+A new game starts on the \textbf{Character Generation} screen, where you make the four adventurers. Everything is done with the mouse, as in the original; on the keyboard the cursor keys choose a box and \key{RETURN} opens it.
+
+\begin{center}
+\includegraphics[width=0.48\textwidth]{\shotdir chargen-race.png}\hfill
+\includegraphics[width=0.48\textwidth]{\shotdir chargen-stats.png}
+\end{center}
+
+\begin{enumerate}
+\item \textbf{Choose an empty box} of the four on the left.
+\item \textbf{Race and sex, class and alignment}, in that order. Only the classes each race allows are listed; \texttt{BACK} returns to the previous step. A party with a paladin takes no evil characters, and the other way round.
+\item \textbf{The abilities} are rolled: strength, intelligence, wisdom, dexterity, constitution and charisma, with the armour class (\texttt{AC}), hit points (\texttt{HP}) and level. Before that, choose a \textbf{portrait}: four are shown, and the arrows show others.
+\item With the buttons on the right: \texttt{REROLL} rolls again; \texttt{MODIFY} lets you raise or lower each value with \texttt{+} and \texttt{-} within the limits of the race and class (the one being changed is red; the up and down cursor keys go to another; \texttt{OK} ends); \texttt{FACES} changes the portrait; \texttt{KEEP} keeps the character.
+\item \textbf{Type the name} (up to ten letters) and press \key{RETURN}.
+\end{enumerate}
+
+Click a box with a character to see its abilities: \texttt{DELETE} removes it so that you can make another one there. With all four made, \texttt{PLAY} appears: click it (or press \key{P}) and each character receives the equipment of its class (armour, weapons, the mage's spell book, the cleric's holy symbol, food). The first one also carries the commission letter of Waterdeep.
+
+\input{party-en}
+
+\sect{7. The adventure screen}
+
+\begin{center}
+\includegraphics[width=0.86\textwidth]{\imgdir hud.png}
+\end{center}
+
+\begin{tabularx}{\textwidth}{@{}clX@{}}
+\toprule
+\textbf{\tNo} & \textbf{\tElement} & \textbf{\tTellsYou}\\
+\midrule
+1 & View & What lies ahead of the party: walls, doors, items and monsters. Left click: take, throw, put down or examine.\\
+2 & Portrait and name & Who each character is. Click: the inventory. Greyed: unconscious; a skull: dead. When hit, a red splash shows the damage.\\
+3 & Upper hand & What the character holds in the primary hand, usually the weapon. Right click or \key{1}--\key{6}: use it. After use it stays grey for a moment.\\
+4 & Hit point bar & The hit points: green; yellow when less than a third is left; red when they reach zero and the character falls.\\
+5 & Lower hand & The secondary hand: shield, second weapon, spell book, holy symbol\dots{} Right click or \key{Q}--\key{Y}: use it.\\
+6 & Arrows & Step forward and back, turn, step sideways.\\
+7 & Compass & Where the party is facing. While a spell is being cast, the spell menu appears here.\\
+8 & Messages & What happens: hits, poison, writings of the dungeon, what other characters say.\\
+9 & \texttt{CAMP} & The camp: rest, prepare spells, preferences, and save or load the game.\\
+\bottomrule
+\end{tabularx}
+
+\sect{8. The inventory and the character sheet}
+
+Click on a portrait and the right panel shows that character's inventory. Return to the game by clicking on the portrait again.
+
+\begin{center}
+\includegraphics[width=0.42\textwidth]{\imgdir inv.png}\hfill
+\includegraphics[width=0.42\textwidth]{\shotdir stats-panel.png}
+\end{center}
+
+\begin{tabularx}{\textwidth}{@{}clX@{}}
+\toprule
+\textbf{\tNo} & \textbf{\tElement} & \textbf{\tTellsYou}\\
+\midrule
+1 & Portrait & Click: back to the adventure screen.\\
+2 & \texttt{HP} and \texttt{FOOD} & Hit points and food. Without food, the character slowly loses hit points and cannot prepare spells.\\
+3 & Plate & To eat: take a food ration and put it on the plate.\\
+4 & Arrows & The previous or the next character (also useful to pass an item from one character to another).\\
+5 & Backpack & Fourteen boxes for carrying things.\\
+6 & Quiver & The arrows. Put arrows on it to fill it; the number tells how many are left.\\
+7 & Primary hand & The weapon (the same upper hand as on the panel).\\
+8 & Secondary hand & Shield, book, holy symbol, ammunition\dots\\
+9 & Page & Turns to the character sheet (on the right): class, alignment, race, ability scores, experience and level.\\
+10 & Body & Boxes for what is worn: head, neck, armour, wrists, rings and boots; on the right, the belt with three boxes for items close at hand (throwing weapons in it go to the hand by themselves when you throw).\\
+\bottomrule
+\end{tabularx}
+
+To wear something, take it and put it in its box. If you carry an item on the pointer and click on a character's portrait, his inventory opens so you can store it there.
+
+\input{status-en}
+
+\sect{9. Combat and magic}
+
+\textbf{Attacking.} Use (right click, or \key{1}--\key{6}) the weapon in a front-rank character's hand when the monster is ahead, in the view. Ranged weapons are used the same way from either rank: a bow needs arrows in the other hand, and reloads from the quiver by itself as it shoots; daggers and darts are replaced from the belt. After each attack the hand stays grey until the character is ready again. When a monster dies, the party gains experience and the characters go up in level.
+
+\textbf{Casting spells.} Mages use their \textbf{spell book}; clerics and paladins, their \textbf{holy symbol}. Use the book or the symbol (right click) and the spell menu appears in place of the compass:
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{\shotdir spells.png}
+\end{center}
+
+At the top are the spell levels (1 to 5); below, the prepared spells of that level. Click on one to cast it; if it affects a character, then click on that character's portrait. Attack spells can only be cast at monsters in sight. \texttt{ABORT SPELL} closes the menu. A cast spell is used up: it has to be prepared again by resting in the camp.
+
+\textbf{Scrolls, potions and wands.} They are used like a weapon: in the hand and a right click. A scroll is used up when read. A mage can copy the spell of a scroll into his book (camp, \texttt{Scribe Scrolls}).
+
+\textbf{Turning undead.} Clerics, and paladins from level 3 on, try by themselves to drive away the undead in front of them.
+
+\textbf{Poison and paralysis.} Some monsters poison or paralyse. Poison takes hit points away little by little until it is cured (with a spell or a potion); the inventory page shows \texttt{POISONED}.
+
+\input{prepare-en}
+
+\sect{10. The camp}
+
+Click on \texttt{CAMP}. The game stops while you are in the camp.
+
+\begin{center}
+\includegraphics[width=0.32\textwidth]{\shotdir camp.png}\hfill
+\includegraphics[width=0.32\textwidth]{\shotdir memorize.png}\hfill
+\includegraphics[width=0.32\textwidth]{\shotdir options.png}
+\end{center}
+
+\begin{itemize}
+\item \texttt{Rest Party}: the party rests hour by hour (the count shows in the window). After about eight hours each mage and cleric starts to regain their spells, one after another, and the message window tells about each. If somebody is injured and a cleric has healing spells, the game asks whether the cleric should heal the party. When no spell is left to regain but somebody is still injured, it asks whether to go on resting until healed. Every eight hours the characters regain a hit point and eat. A click interrupts the rest. You cannot rest with monsters near, and if one comes close the camp ends with a warning. Beware of poison: a poisoned character loses hit points every hour and may die while resting (the game warns first). If the party is hungry, the game asks whether to go on resting.
+\item \texttt{Memorize Spells}: pick a mage and choose the spells to learn while resting. The numbers on the right tell how many of each there will be; \texttt{Clear} removes the choice and the buttons \texttt{1}--\texttt{5} change the level.
+\item \texttt{Pray for Spells}: the same for clerics and paladins.
+\item \texttt{Scribe Scrolls}: a mage copies into the spellbook the spell of a scroll in the inventory.
+\item \texttt{Preferences}: \texttt{Sounds} turns the sound effects on and off. Music plays during the introduction.
+\item \texttt{Game Options}: \texttt{Load Game}, \texttt{Save Game}, \texttt{Drop Character} (removes a member when there are five or six; details below) and \texttt{Quit Game} (back to MSX-DOS).
+\item \texttt{Exit}: back to the game.
+\end{itemize}
+
+The keyboard works in the camp menus too: the arrows move the lit button, \texttt{RETURN} or the space bar choose it and \texttt{ESC} leaves (in the Yes/No questions the left and right arrows change the answer). When a character must be chosen, the arrows move the frame of changing colours and \texttt{RETURN} picks it. In the list of spells, the up and down arrows (or the pointer) light one, \texttt{RETURN}, the space bar or a click add it, the \texttt{-} key takes one away and the left and right arrows change the level.
+
+\textbf{Saving.} There is a single saved game for each language: \texttt{Save Game} replaces the previous one. It is the one loaded by \texttt{LOAD GAME IN PROGRESS} on the title screen and when the whole party falls.
+
+\input{menus-en}
+\input{equipment-en}
+\input{consumables-en}
+\input{spells-en}
+\input{guide-en}

@@ -1,0 +1,34 @@
+% Fixed texts of lang-en.tex that differ for this game: it runs from a hard
+% disk or SD card under MSX-DOS2, needs a V9990 and is played with a mouse.
+\renewcommand{\tCoverLine}{The PC role-playing classic, on the MSX with the V9990}
+\renewcommand{\tComputerText}{An \textbf{MSX2, MSX2+ or MSX turbo R}, with slots for the V9990 and disk interface.}
+\renewcommand{\tMemoryText}{\textbf{At least \ramNeeded{} of mapped memory in total}. A machine with less needs an expansion, including turbo R models that do not have this amount.}
+\renewcommand{\tVideoText}{A \textbf{Yamaha V9990 video cartridge}. Required for the adventure picture.}
+\renewcommand{\tSoundText}{An optional \textbf{MoonSound} plays sound effects and the introduction music.}
+\renewcommand{\tGameRow}{Disk}
+\renewcommand{\tGameText}{\textbf{MSX-DOS2 or Nextor} and a \textbf{hard disk or SD/CF card} with the game files.}
+\renewcommand{\tControlsText}{An \textbf{MSX mouse in port 1} (used for almost everything) and the keyboard (moving and attacking).}
+\renewcommand{\tNoTape}{If you need more cartridge slots, use a \textbf{slot expander}.}
+\renewcommand{\tSetOff}{\textbf{Switch the MSX off.} Never insert or remove a cartridge with the power on.}
+\renewcommand{\tSetV}{Insert the \textbf{V9990 cartridge} in a free slot.}
+\renewcommand{\tSetGame}{Insert the \textbf{disk interface} in another free slot, with the game files, and the \textbf{MoonSound} if you have one. You can use a \textbf{slot expander} if more cartridges need to be connected.}
+\renewcommand{\tSetMonitor}{Connect your monitor or TV to the \textbf{video output of the V9990}.}
+\renewcommand{\tSetJoy}{Plug the \textbf{mouse into port 1}.}
+\renewcommand{\tSetOn}{Copy the \texttt{EOB} folder from \texttt{SD} in the ZIP to your DOS drive. Switch the MSX on, select that drive, then type \texttt{CD \textbackslash EOB} and \texttt{EOB}. Choose your language on the cover.}
+\renewcommand{\tBlackScreen}{\textbf{In openMSX.} Use an MSX2 or turbo R with the \texttt{gfx9000} extension and a mouse in port~1. Add \texttt{moonsound} for sound effects and introduction music. The project README explains how to launch the game from the ZIP.\par\medskip
+\textbf{If the screen stays black.} Check the V9990 connection and select its video output. If you see a DOS prompt, check that you started MSX-DOS2 or Nextor and are in the game folder.}
+\renewcommand{\tPowerOnCaption}{Left: the cover, where you choose the language. Right: the title screen and its menu.}
+\renewcommand{\tJoystick}{Mouse}
+\renewcommand{\tCreditsTitle}{17. Credits and rights}
+\renewcommand{\tRightsText}{Based on the ADVANCED DUNGEONS \& DRAGONS\textsuperscript{\textregistered} rules and the FORGOTTEN REALMS\textsuperscript{\textregistered} world, trademarks of their owners. The game, its graphics, texts, sounds and name belong to their rights holders. This is an unofficial port made for study, preservation and homage; it is not affiliated with them.}
+\newcommand{\tCreditsExtra}{%
+\item The cover uses the opening illustration chosen for this edition. The icons come from the game graphics; several explanations follow its original rule book.
+\item The bestiary images are screenshots from the adventure.
+\item ScummVM (GPL licence) was used as a reference for this port. Its AdLib driver was used for sound conversion.}
+% the pictures of this language (the English game): made by
+% tools/manual_images.py (img/en/) and taken by tools/manual_shots.sh (../img/en/)
+\newcommand{\imgdir}{img/en/}
+\newcommand{\shotdir}{../img/en/}
+\newcommand{\tTitleShot}{img/en/title.png}
+
+\renewcommand{\tMonitorText}{Monitor or TV connected to the V9990 for the adventure. The MSX\textquotesingle s own output shows the automap: use a second display or a monitor with switchable inputs.}

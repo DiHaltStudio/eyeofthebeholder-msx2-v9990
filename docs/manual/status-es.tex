@@ -1,0 +1,14 @@
+\subsection*{Leer la ficha y reconocer los estados}
+\textbf{CA/AC} es la clase de armadura: cuanto menor, mejor, incluso si es negativa. \textbf{PV/HP} indica la vida actual y máxima. La experiencia permite subir de nivel; no es dinero ni una puntuación que se gaste. En personajes de varias clases se muestran sus niveles por separado. El nivel del personaje y el nivel de un conjuro son cosas distintas.
+
+\begin{reference}{Estado}{Qué hacer}
+Herido & Cura con magia, pociones o descanso seguro. La comida no repone directamente los PV.\\
+Hambriento & Alimenta al personaje sobre el plato del inventario. El hambre impide recuperar conjuros y acaba costando vida.\\
+Envenenado & Usa antídoto o Neutralizar veneno. Retrasar veneno solo da tiempo; dormir con veneno puede matar. Después cura el daño ya sufrido.\\
+Paralizado & El personaje no puede actuar; algunos ataques lo dejan así unos dos minutos y medio. Protégelo y utiliza Quitar parálisis cuando esté disponible. Curar PV no elimina este estado.\\
+Petrificado & No puede actuar. La curación no revierte la petrificación. Conserva un guardado anterior por si necesitas recuperar al grupo.\\
+Inconsciente & Con PV de cero o menos, pero por encima de $-10$, el personaje ha caído. Una curación que lo lleve por encima de cero puede devolverlo al combate.\\
+Muerto & A $-10$ PV aparece la calavera. Las curaciones ordinarias no sirven; Resucitar, cuando sea aplicable, lo devuelve con 1 PV. Si cae todo el grupo se intenta cargar la partida guardada.\\
+\end{reference}
+
+\textbf{El inventario no pausa la aventura.} Organiza el equipo en un lugar despejado. Para detenerte a pensar, abre el campamento; al descansar sí transcurre tiempo y vuelven a importar el hambre, los enemigos y el veneno.

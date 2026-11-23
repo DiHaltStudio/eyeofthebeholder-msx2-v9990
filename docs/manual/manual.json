@@ -1,0 +1,336 @@
+{
+  "cover": "docs/img/opening.png",
+  "cover_shot": "docs/img/launcher.png",
+  "title": "docs/img/title.png",
+  "montage": [
+    "docs/img/play.png",
+    "docs/img/inventory.png",
+    "docs/img/spells.png",
+    "docs/img/camp.png",
+    "docs/img/intro-throne.png",
+    "docs/img/chargen-race.png"
+  ],
+  "huds": [
+    {
+      "name": "hud",
+      "src": "docs/img/play.png",
+      "box": [
+        75,
+        35,
+        562,
+        438
+      ],
+      "labels": [
+        [
+          1,
+          210,
+          150
+        ],
+        [
+          2,
+          378,
+          88
+        ],
+        [
+          3,
+          426,
+          75
+        ],
+        [
+          4,
+          500,
+          131
+        ],
+        [
+          5,
+          535,
+          108
+        ],
+        [
+          6,
+          130,
+          325,
+          "b"
+        ],
+        [
+          7,
+          262,
+          330,
+          "b"
+        ],
+        [
+          8,
+          330,
+          412,
+          "b"
+        ],
+        [
+          9,
+          535,
+          412,
+          "b"
+        ]
+      ]
+    },
+    {
+      "name": "inv",
+      "src": "docs/img/inventory.png",
+      "box": [
+        343,
+        35,
+        562,
+        375
+      ],
+      "labels": [
+        [
+          1,
+          373,
+          75
+        ],
+        [
+          6,
+          427,
+          168
+        ],
+        [
+          3,
+          455,
+          125
+        ],
+        [
+          2,
+          490,
+          85
+        ],
+        [
+          4,
+          522,
+          123
+        ],
+        [
+          5,
+          373,
+          300,
+          "b"
+        ],
+        [
+          7,
+          435,
+          288,
+          "b"
+        ],
+        [
+          10,
+          470,
+          250,
+          "b"
+        ],
+        [
+          8,
+          508,
+          288,
+          "b"
+        ],
+        [
+          9,
+          543,
+          353,
+          "b"
+        ]
+      ]
+    }
+  ],
+  "langs": {
+    "en": {
+      "title": "docs/img/en/title.png",
+      "montage": [
+        "docs/img/en/play.png",
+        "docs/img/en/inventory.png",
+        "docs/img/en/spells.png",
+        "docs/img/en/camp.png",
+        "docs/img/en/intro-throne.png",
+        "docs/img/en/chargen-race.png"
+      ],
+      "huds": [
+        {
+          "name": "hud",
+          "src": "docs/img/en/play.png",
+          "box": [
+            75,
+            35,
+            562,
+            438
+          ],
+          "labels": [
+            [
+              1,
+              210,
+              150
+            ],
+            [
+              2,
+              378,
+              88
+            ],
+            [
+              3,
+              426,
+              75
+            ],
+            [
+              4,
+              500,
+              131
+            ],
+            [
+              5,
+              535,
+              108
+            ],
+            [
+              6,
+              130,
+              325,
+              "b"
+            ],
+            [
+              7,
+              262,
+              330,
+              "b"
+            ],
+            [
+              8,
+              330,
+              412,
+              "b"
+            ],
+            [
+              9,
+              535,
+              412,
+              "b"
+            ]
+          ]
+        },
+        {
+          "name": "inv",
+          "src": "docs/img/en/inventory.png",
+          "box": [
+            343,
+            35,
+            562,
+            375
+          ],
+          "labels": [
+            [
+              1,
+              373,
+              75
+            ],
+            [
+              6,
+              427,
+              168
+            ],
+            [
+              3,
+              455,
+              125
+            ],
+            [
+              2,
+              490,
+              85
+            ],
+            [
+              4,
+              522,
+              123
+            ],
+            [
+              5,
+              373,
+              300,
+              "b"
+            ],
+            [
+              7,
+              435,
+              288,
+              "b"
+            ],
+            [
+              10,
+              470,
+              250,
+              "b"
+            ],
+            [
+              8,
+              508,
+              288,
+              "b"
+            ],
+            [
+              9,
+              543,
+              353,
+              "b"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "cover_fit": "contain",
+  "item_icons": {
+    "axe": 7,
+    "long-sword": 1,
+    "short-sword": 2,
+    "dagger": 15,
+    "spear": 6,
+    "halberd": 9,
+    "mace": 4,
+    "flail": 5,
+    "staff": 8,
+    "bow": 10,
+    "sling": 18,
+    "dart": 14,
+    "arrow": 16,
+    "leather": 31,
+    "scale": 30,
+    "chain": 29,
+    "banded": 28,
+    "plate": 26,
+    "robe": 32,
+    "shield": 22,
+    "bracers": 25,
+    "ring-protection": 81,
+    "helmet": 20,
+    "spellbook": 35,
+    "holy-symbol": 55,
+    "lockpicks": 56,
+    "key": 49,
+    "gem": 46,
+    "stone-object": 62,
+    "bones": 44,
+    "letter": 88,
+    "orb": 37,
+    "necklace": 33,
+    "rations": 38,
+    "egg": 58,
+    "potion-strength": 40,
+    "potion-healing": 41,
+    "potion-extra": 41,
+    "potion-poison": 42,
+    "potion-vitality": 42,
+    "potion-speed": 40,
+    "potion-invisible": 42,
+    "potion-antidote": 41,
+    "scroll-mage": 36,
+    "scroll-divine": 87,
+    "wand": 54,
+    "ring": 57
+  }
+}

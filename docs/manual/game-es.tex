@@ -1,0 +1,147 @@
+% Secciones del juego: 5..11 (los cr\'editos son la 12, ver override-es.tex).
+
+\sect{5. C\'omo jugar}
+
+\textbf{La historia.} Algo maligno se esconde bajo la ciudad de Aguas Profundas (Waterdeep). Piergeiron, el primer Se\~nor de la ciudad, re\'une a un grupo de aventureros y le entrega una carta de encargo: bajar a las alcantarillas, descubrir qu\'e amenaza a la ciudad y destruirla. Al entrar, un derrumbe cierra el camino de vuelta. Desde ah\'i solo se puede ir hacia abajo: alcantarillas, ruinas enanas, las cuevas de los elfos oscuros y, al fondo, la guarida del contemplador Xanathar.
+
+\textbf{El objetivo.} Recorrer los 12 niveles de la mazmorra, sobrevivir y acabar con Xanathar.
+
+\textbf{Todo se ve desde los ojos del grupo.} La ventana grande muestra lo que tienes delante. Te mueves casilla a casilla y giras de 90 en 90 grados. Ver\'as pasar las paredes, objetos en el suelo, puertas, palancas, botones, inscripciones y monstruos que se acercan para luchar. Los monstruos no esperan: si te quedas quieto, ellos siguen movi\'endose y atacando.
+
+\textbf{El grupo.} Empiezas con cuatro personajes. Los dos de arriba forman la \textbf{fila delantera}: son los \'unicos que pueden atacar cuerpo a cuerpo (espadas, mazas, hachas). Los dos de abajo van en la \textbf{fila trasera}: solo pueden atacar con armas a distancia (arcos, dagas o dardos lanzados) o con conjuros, pero siguen expuestos, especialmente a ataques laterales o por detrás. Por el camino encontrar\'as otros aventureros que pueden unirse al grupo, hasta un m\'aximo de seis personajes. Para \textbf{cambiar el orden}, haz clic derecho en el nombre de un personaje (en su lugar aparece \texttt{Cambiando}) y despu\'es clic derecho en el nombre de otro: los dos cambian de sitio. Un clic en cualquier otro punto del panel lo anula.
+
+\textbf{Coger, usar, elegir.} La clave del juego es la diferencia entre estas tres acciones:
+\begin{itemize}
+\item \textbf{Coger} (bot\'on izquierdo): recoger o soltar objetos. Lo que coges pasa a ser el puntero del rat\'on y lo dejas donde quieras.
+\item \textbf{Usar} (bot\'on derecho sobre una mano, o las teclas \key{1}--\key{6} y \key{Q}--\key{Y}): atacar con un arma, lanzar un conjuro con el libro o el s\'imbolo sagrado, beber una poci\'on, leer un pergamino\dots
+\item \textbf{Elegir} (bot\'on izquierdo): pulsar los botones de los men\'us, elegir un conjuro de una lista, se\~nalar a un personaje.
+\end{itemize}
+
+\textbf{Examinar el mundo.} Haz clic con el bot\'on izquierdo sobre una inscripci\'on, un desag\"ue o un cad\'aver: en la zona de mensajes aparece lo que el grupo ve. Con el mismo clic se accionan palancas, botones y cadenas.
+
+\textbf{Puertas.} No todas se abren igual. Muchas tienen un bot\'on o una palanca al lado (cl\'ic sobre \'el, o \key{ESPACIO} con la puerta delante). Las cerradas con llave se abren cogiendo la llave adecuada y haciendo clic con ella sobre la cerradura; un ladr\'on puede intentarlo con sus ganz\'uas del mismo modo. Una puerta a medio abrir se puede intentar forzar haciendo clic en su parte de abajo: lo intenta el personaje m\'as fuerte.
+
+\textbf{Escaleras y portales} llevan a otros niveles. El juego recuerda lo que has dejado en cada nivel (puertas abiertas, monstruos muertos, objetos tirados) por si vuelves.
+
+\sect{6. Crear el grupo}
+
+Una partida nueva empieza en la pantalla \textbf{Generaci\'on de Caracteres}, donde creas a los cuatro aventureros. Todo se hace con el rat\'on, como en el original; con el teclado, los cursores eligen la ventana y \key{RETURN} la abre.
+
+\begin{center}
+\includegraphics[width=0.48\textwidth]{\shotdir chargen-race.png}\hfill
+\includegraphics[width=0.48\textwidth]{\shotdir chargen-stats.png}
+\end{center}
+
+\begin{enumerate}
+\item \textbf{Elige una ventana vac\'ia} de las cuatro de la izquierda.
+\item \textbf{Raza y sexo, clase y alineamiento}, en este orden. Solo aparecen las clases que permite cada raza; \texttt{ATRAS} vuelve al paso anterior. Un grupo con un paladín no admite personajes malvados, y al rev\'es.
+\item \textbf{Las caracter\'isticas} se tiran solas: fuerza, inteligencia, sabidur\'ia, destreza, constituci\'on y carisma, con la armadura (\texttt{AC}), los puntos de vida (\texttt{PV}) y el nivel. Antes, elige un \textbf{retrato}: se ven cuatro, y las flechas muestran otros.
+\item Con los botones de la derecha: \texttt{REROLL} vuelve a tirar; \texttt{MODIFICA} deja subir o bajar cada valor con \texttt{+} y \texttt{-} dentro de los l\'imites de la raza y la clase (la que se cambia sale en rojo; con los cursores arriba y abajo pasas a otra; \texttt{OK} termina); \texttt{CARAS} cambia el retrato; \texttt{OK!} se queda con el personaje.
+\item \textbf{Escribe su nombre} (hasta diez letras) y pulsa \key{RETURN}.
+\end{enumerate}
+
+Haz clic en una ventana con personaje para ver sus caracter\'isticas: \texttt{BORRAR} lo elimina para crear otro en su lugar. Con los cuatro creados aparece \texttt{JUGAR}: p\'ulsalo (o la tecla \key{P}) y cada personaje recibe el equipo de su clase (armadura, armas, el libro de conjuros del mago, el s\'imbolo sagrado del cl\'erigo, comida). El primero lleva adem\'as la carta de encargo de Aguas Profundas.
+
+\input{party-es}
+
+\sect{7. La pantalla de aventura}
+
+\begin{center}
+\includegraphics[width=0.86\textwidth]{\imgdir hud.png}
+\end{center}
+
+\begin{tabularx}{\textwidth}{@{}clX@{}}
+\toprule
+\textbf{\tNo} & \textbf{\tElement} & \textbf{\tTellsYou}\\
+\midrule
+1 & Vista & Lo que el grupo tiene delante: paredes, puertas, objetos y monstruos. Clic izquierdo: coger, lanzar, dejar o examinar.\\
+2 & Retrato y nombre & Qui\'en es cada personaje. Clic: su inventario. Gris: inconsciente; una calavera: muerto. Si recibe un golpe aparece una mancha roja con el da\~no.\\
+3 & Mano de arriba & Lo que lleva en la mano principal, normalmente el arma. Clic derecho o \key{1}--\key{6}: usarla. Tras usarla queda en gris un momento.\\
+4 & Barra de \texttt{PV} & Los puntos de vida: verde; amarilla cuando queda menos de un tercio; roja cuando llega a cero y el personaje cae.\\
+5 & Mano de abajo & La mano secundaria: escudo, segunda arma, libro de conjuros, s\'imbolo sagrado\dots{} Clic derecho o \key{Q}--\key{Y}: usarla.\\
+6 & Flechas & Avanzar, retroceder, girar y moverse de lado.\\
+7 & Br\'ujula & Hacia d\'onde mira el grupo. Mientras se lanza un conjuro, aqu\'i aparece el men\'u de conjuros.\\
+8 & Mensajes & Lo que ocurre: golpes, venenos, textos de la mazmorra, lo que dicen otros personajes.\\
+9 & \texttt{CAMP} & El campamento: descansar, preparar conjuros, preferencias y guardar o cargar la partida.\\
+\bottomrule
+\end{tabularx}
+
+\sect{8. El inventario y la hoja del personaje}
+
+Haz clic en un retrato y el panel de la derecha muestra el inventario de ese personaje. Vuelve al juego haciendo clic otra vez en el retrato.
+
+\begin{center}
+\includegraphics[width=0.42\textwidth]{\imgdir inv.png}\hfill
+\includegraphics[width=0.42\textwidth]{\shotdir stats-panel.png}
+\end{center}
+
+\begin{tabularx}{\textwidth}{@{}clX@{}}
+\toprule
+\textbf{\tNo} & \textbf{\tElement} & \textbf{\tTellsYou}\\
+\midrule
+1 & Retrato & Clic: vuelta a la pantalla de aventura.\\
+2 & \texttt{HP} y \texttt{FOOD} & Puntos de vida y comida. Sin comida, el personaje pierde vida poco a poco y no puede preparar conjuros.\\
+3 & Plato & Para comer: coge una raci\'on de comida y su\'eltala sobre el plato.\\
+4 & Flechas & El personaje anterior o el siguiente (tambi\'en sirven para pasar un objeto de un personaje a otro).\\
+5 & Mochila & Catorce casillas para llevar cosas.\\
+6 & Carcaj & Las flechas. Suelta flechas sobre \'el para llenarlo; el n\'umero dice cu\'antas quedan.\\
+7 & Mano principal & El arma (la misma mano de arriba del panel).\\
+8 & Mano secundaria & Escudo, libro, s\'imbolo sagrado, munici\'on\dots\\
+9 & Hoja & Pasa a la hoja del personaje (a la derecha): clase, alineamiento, raza, caracter\'isticas, experiencia y nivel.\\
+10 & Cuerpo & Casillas para lo que se lleva puesto: cabeza, cuello, armadura, mu\~necas, anillos y botas; a la derecha, el cinto con tres casillas para objetos a mano (las armas arrojadizas que haya en \'el pasan solas a la mano al lanzar).\\
+\bottomrule
+\end{tabularx}
+
+Para ponerte algo, c\'ogelo y su\'eltalo en su casilla. Si llevas un objeto en el puntero y haces clic en el retrato de un personaje, se abre su inventario para que lo guardes all\'i.
+
+\input{status-es}
+
+\sect{9. Combate y magia}
+
+\textbf{Atacar.} Usa (clic derecho, o \key{1}--\key{6}) el arma de la mano de un personaje de la fila delantera cuando el monstruo est\'e delante, en la vista. Las armas a distancia se usan igual desde cualquier fila: un arco necesita flechas en la otra mano, y al disparar se recargan solas del carcaj; las dagas y los dardos se reponen desde el cinto. Tras cada ataque la mano queda en gris hasta que el personaje est\'a listo otra vez. Al morir un monstruo, el grupo gana experiencia y los personajes suben de nivel.
+
+\textbf{Lanzar conjuros.} Los magos usan su \textbf{libro de conjuros}; los cl\'erigos y paladines, su \textbf{s\'imbolo sagrado}. Usa el libro o el s\'imbolo (clic derecho) y en lugar de la br\'ujula aparece el men\'u de conjuros:
+
+\begin{center}
+\includegraphics[width=0.6\textwidth]{\shotdir spells.png}
+\end{center}
+
+Arriba est\'an los niveles de conjuro (\texttt{1RO} a \texttt{5TO}); debajo, los conjuros preparados de ese nivel. Haz clic en uno para lanzarlo; si afecta a un personaje, haz clic despu\'es en el retrato de ese personaje. Los conjuros de ataque solo se lanzan contra monstruos que est\'en a la vista. \texttt{ABORTAR} cierra el men\'u. Un conjuro lanzado se gasta: hay que volver a prepararlo descansando en el campamento.
+
+\textbf{Pergaminos, pociones y varitas.} Se usan igual que un arma: en la mano y clic derecho. El pergamino se gasta al leerlo. Un mago puede copiar en su libro el conjuro de un pergamino (campamento, \texttt{Utilizar Pergaminos}).
+
+\textbf{Expulsar muertos vivientes.} Los cl\'erigos, y los paladines a partir del nivel 3, intentan solos espantar a los no muertos que tengan delante.
+
+\textbf{Venenos y par\'alisis.} Algunos monstruos envenenan o paralizan. El veneno quita vida poco a poco hasta que se cura (con un conjuro o una poci\'on); en la hoja del inventario aparece \texttt{ENVENENADO}.
+
+\input{prepare-es}
+
+\sect{10. El campamento}
+
+Haz clic en \texttt{CAMP}. El juego se detiene mientras est\'as en el campamento.
+
+\begin{center}
+\includegraphics[width=0.32\textwidth]{\shotdir camp.png}\hfill
+\includegraphics[width=0.32\textwidth]{\shotdir memorize.png}\hfill
+\includegraphics[width=0.32\textwidth]{\shotdir options.png}
+\end{center}
+
+\begin{itemize}
+\item \texttt{Descansar grupo}: el grupo descansa hora a hora (la cuenta aparece en la ventana). Tras unas ocho horas cada mago y cada cl\'erigo empieza a recuperar sus conjuros, uno tras otro, y la ventana de mensajes lo cuenta. Si alguien est\'a herido y hay un cl\'erigo con conjuros de curaci\'on, el juego pregunta si quieres que cure al grupo. Cuando ya no quedan conjuros por recuperar pero alguien sigue herido, pregunta si seguir descansando hasta curarse. Cada ocho horas los personajes recuperan un punto de vida y comen. Un clic interrumpe el descanso. Con monstruos cerca no se puede descansar, y si se acerca alguno se sale del campamento con un aviso. Cuidado con el veneno: un personaje envenenado pierde vida cada hora y puede morir descansando (el juego avisa antes). Si el grupo tiene hambre, el juego pregunta si quieres seguir descansando.
+\item \texttt{Memorizar Conjuros}: elige a un mago y escoge los conjuros que aprender\'a al descansar. Los n\'umeros de la derecha son cu\'antos tendr\'a de cada uno; \texttt{Borrar} quita la elecci\'on y los botones \texttt{1}--\texttt{5} cambian de nivel.
+\item \texttt{Orar Conjuros}: lo mismo para cl\'erigos y paladines.
+\item \texttt{Utilizar Pergaminos}: un mago copia en su libro un conjuro nuevo de un pergamino del grupo.
+\item \texttt{Preferencias}: \texttt{Sonidos} activa o quita los efectos de sonido. La música suena durante la introducción.
+\item \texttt{Opciones}: \texttt{Cargar Juego}, \texttt{Guardar Juego}, \texttt{Dejar Personaje} (retira un miembro cuando hay cinco o seis; detalles más abajo) y \texttt{Abandonar Juego} (vuelta a MSX-DOS).
+\item \texttt{Salir}: vuelta al juego.
+\end{itemize}
+
+En los men\'us del campamento tambi\'en sirve el teclado: las flechas mueven el bot\'on iluminado, \texttt{RETURN} o la barra espaciadora lo eligen y \texttt{ESC} sale (en las preguntas S\'i/No las flechas izquierda y derecha cambian de respuesta). Cuando hay que escoger un personaje, las flechas mueven el marco de colores y \texttt{RETURN} lo elige. En la lista de conjuros, las flechas arriba y abajo (o el puntero) iluminan uno, \texttt{RETURN}, la barra espaciadora o un clic lo a\~naden, la tecla \texttt{-} quita uno y las flechas izquierda y derecha cambian de nivel.
+
+\textbf{Guardar.} Hay una sola partida guardada para cada idioma: \texttt{Guardar Juego} sustituye a la anterior. Es la que se carga con \texttt{CARGAR ULTIMA PARTIDA} en la pantalla de t\'itulo y cuando todo el grupo cae.
+
+\input{menus-es}
+\input{equipment-es}
+\input{consumables-es}
+\input{spells-es}
+\input{guide-es}
